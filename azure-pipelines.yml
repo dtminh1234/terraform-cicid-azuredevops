@@ -42,7 +42,7 @@ steps:
   inputs:
     SourceFolder: 'Terraform'
     Contents: '**'
-    TargetFolder: '$(build.artifactStagingDirectory)terraform'
+    TargetFolder: '$(build.artifactStagingDirectory)/terraform'
 
 - task: PublishBuildArtifacts@1
   inputs:
